@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="org.pf9.pangu.framework.data.mybatis.mapper.DataTablesMapper">
+
+    <sql id="colSearch">
+        <foreach item="col" index="index" collection="columns">
+            <if test="col.searchable and col.search.value.length > 0">
+                and ${col.data} like '%${col.search.value}%'
+            </if>
+
+        </foreach>
+
+    </sql>
+    <sql id="colOrder">
+        <if test="order.size> 0">
+            order by
+            <foreach collection="order" item="ord" index="index">
+                ${columns[ord.column].data} ${ord.dir}
+            </foreach>
+        </if>
+    </sql>
+
+</mapper>

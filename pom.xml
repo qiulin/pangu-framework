@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>pangu-framework</artifactId>
+    <packaging>pom</packaging>
+    <version>0.1.0-SNAPSHOT</version>
+    <modules>
+        <module>pangu-common</module>
+        <module>pangu-samples</module>
+        <module>pangu-data-jdbc</module>
+        <module>pangu-data</module>
+        <module>pangu-cache</module>
+        <module>pangu-async</module>
+        <module>pangu-data-mybatis</module>
+        <module>pangu-parent</module>
+        <module>pangu-auth-security</module>
+        <module>pangu-webmvc</module>
+        <module>pangu-template-thymeleaf</module>
+        <module>pangu-auth-shiro</module>
+    </modules>
+    <parent>
+        <artifactId>pangu-parent</artifactId>
+        <groupId>org.pf9.pangu</groupId>
+        <version>0.1.0-SNAPSHOT</version>
+    </parent>
+</project>
