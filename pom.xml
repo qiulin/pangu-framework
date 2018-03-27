@@ -20,6 +20,7 @@
         <module>pangu-webmvc</module>
         <module>pangu-template-thymeleaf</module>
         <module>pangu-auth-shiro</module>
+        <module>pangu-dubbo</module>
     </modules>
     <parent>
         <artifactId>pangu-parent</artifactId>
