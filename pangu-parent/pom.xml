@@ -48,6 +48,7 @@
         <httpmime.version>4.5.2</httpmime.version>
         <commons-io.version>2.5</commons-io.version>
         <commons-configuration.version>1.10</commons-configuration.version>
+        <commons-fileupload.version>1.2.1</commons-fileupload.version>
         <querydsl.version>4.1.4</querydsl.version>
         <junit.version>4.12</junit.version>
 
