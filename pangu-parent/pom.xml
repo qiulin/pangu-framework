@@ -134,6 +134,11 @@
                 <artifactId>pangu-webmvc</artifactId>
                 <version>${framework.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.pf9.pangu</groupId>
+                <artifactId>pangu-swagger</artifactId>
+                <version>${framework.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
