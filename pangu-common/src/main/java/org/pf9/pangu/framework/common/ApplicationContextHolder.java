@@ -57,9 +57,7 @@ public class ApplicationContextHolder implements ApplicationContextAware {
 	}
 
 	public static <T> List<T> findBeansByType(Class<T> beanType) {
-		List<T> beans = new ArrayList<>();
-		beans.addAll(applicationContext.getBeansOfType(beanType).values());
 
-		return beans;
+		return new ArrayList<>(applicationContext.getBeansOfType(beanType).values());
 	}
 }

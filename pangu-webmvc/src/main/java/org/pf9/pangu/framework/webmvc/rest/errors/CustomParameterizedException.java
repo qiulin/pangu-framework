@@ -1,5 +1,6 @@
 package org.pf9.pangu.framework.webmvc.rest.errors;
 
+import org.pf9.pangu.framework.webmvc.constants.ErrorConstants;
 import org.zalando.problem.AbstractThrowableProblem;
 import static org.zalando.problem.Status.BAD_REQUEST;
 

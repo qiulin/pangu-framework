@@ -22,6 +22,8 @@
         <module>pangu-auth-shiro</module>
         <module>pangu-dubbo</module>
         <module>pangu-swagger</module>
+        <module>pangu-utils</module>
+        <module>pangu-auth</module>
     </modules>
     <parent>
         <artifactId>pangu-parent</artifactId>

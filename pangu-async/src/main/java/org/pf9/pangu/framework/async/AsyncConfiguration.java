@@ -1,6 +1,5 @@
 package org.pf9.pangu.framework.async;
 
-import org.pf9.pangu.framework.common.async.ExceptionHandlingAsyncTaskExecutor;
 import org.pf9.pangu.framework.common.config.PanguProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

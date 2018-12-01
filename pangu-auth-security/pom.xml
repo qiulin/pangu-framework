@@ -14,8 +14,13 @@
     <dependencies>
         <dependency>
             <groupId>org.pf9.pangu</groupId>
+            <artifactId>pangu-auth</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.pf9.pangu</groupId>
             <artifactId>pangu-data</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>

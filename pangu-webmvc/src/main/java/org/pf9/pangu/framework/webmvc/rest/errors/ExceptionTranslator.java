@@ -1,5 +1,6 @@
 package org.pf9.pangu.framework.webmvc.rest.errors;
 
+import org.pf9.pangu.framework.webmvc.constants.ErrorConstants;
 import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.dao.ConcurrencyFailureException;
 import org.springframework.http.ResponseEntity;
